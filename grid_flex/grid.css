@@ -1,0 +1,42 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#1A1C28;
+}
+h3{
+  color:hsl(0, 0%, 95%);
+}
+h3 a{
+  color: #05AEFC;
+  text-decoration: none;
+}
+h3 a:hover{
+  color: #FFA400;
+}
+.parent {
+  margin: 90px auto;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap:15px;
+  height:550px;
+  width:55%;
+}
+.div1 { 
+  background-color: #EC501F;
+  grid-area: 1 / 1 / 3 / 5; }
+.div2 { 
+  background-color: #FFA400;
+  grid-area: 1 / 5 / 3 / 7; }
+.div3 { 
+  background-color: #04A941;
+  grid-area: 3 / 1 / 5 / 4; }
+.div4 { 
+  background-color: #05AEFC;
+  grid-area: 3 / 4 / 4 / 7; }
+.div5 { 
+  background-color: #05AEFC;
+       grid-area: 4 / 4 / 5 / 7; }
